@@ -61,7 +61,7 @@ router.put('/:id', async (req, res) => {
 
         return res.json(series);
     } catch (err) {
-        throw new Error('Series não encontradas!', 404);
+        throw new Error('Serie não encontrada!', 404);
     }
 })
 
@@ -75,7 +75,7 @@ router.delete('/:id', async (req, res) => {
 
         return res.json(series);
     } catch (err) {
-        throw new Error('Series não encontradas!', 404);
+        throw new Error('Serie não encontrada!', 404);
     }
 })
 

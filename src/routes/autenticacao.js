@@ -13,7 +13,7 @@ router.post('/', async (req, res) => {
         return res.json(auth);
     } catch (err) {
         return res.status(422).json({
-            'error': 'Invalid fields'
+            'error': 'Campos inválidos'
         });
     }
 });

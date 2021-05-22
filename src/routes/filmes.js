@@ -61,7 +61,7 @@ router.put('/:id', async (req, res) => {
 
         return res.json(filmes);
     } catch (err) {
-        throw new Error('Filmes não encontrado!', 404);
+        throw new Error('Filme não encontrados!', 404);
     }
 })
 
@@ -75,7 +75,7 @@ router.delete('/:id', async (req, res) => {
 
         return res.json(filmes);
     } catch (err) {
-        throw new Error('Filmes não encontrados!', 404);
+        throw new Error('Filme não encontrados!', 404);
     }
 })
 
